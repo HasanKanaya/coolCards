@@ -3,3 +3,42 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* 
+#ffe700
+#fe4e6e
+#613864
+*/
+
+body {
+  background-color: #222831;
+}
+
+.parent {
+  margin: 4vh 0;
+  background-color: yellow;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent .box {
+  width: 200px;
+  height: 250px;
+  background-color: red;
+  margin: 4px;
+  border: 6px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.parent .box .icon {
+  background-color: yellow;
+  height: 40%;
+  font-size: 40px;
+}
+
+.parent .box .btn {
+  border: none;
+}
